@@ -1,5 +1,7 @@
 # SpriteBlast
 
+Note: This repository contains project files from across all iterations of the development lifecycle and serves as a comprehensive archive of the project's evolution. The code files represent different stages of development and may not be directly executable as a complete system without additional hardware setup and dependencies.
+
 An advanced embedded gaming system built on Arduino using AVR microcontroller architecture, featuring real-time sensor integration, optimized graphics rendering, and intelligent AI gameplay.
 
 ## Project Overview
@@ -9,6 +11,7 @@ SpriteBlast is a high-throughput embedded control system that demonstrates sophi
 ## Key Features
 
 ### Hardware Integration
+
 - **Multi-Peripheral Sensor System**: Architected control system integrating 5+ peripherals including:
   - Joystick for player movement control
   - Photoresistor for ambient light sensing
@@ -17,12 +20,14 @@ SpriteBlast is a high-throughput embedded control system that demonstrates sophi
   - Custom sensor data fusion for responsive gameplay
 
 ### Performance Optimizations
+
 - **Enhanced Graphics Pipeline**: Optimized SPI driver implementation with custom buffer management
   - Achieved 40% performance improvement in graphics rendering
   - Efficient memory utilization for smooth visual updates
   - Real-time sprite rendering and animation systems
 
 ### Communication Protocol
+
 - **UART Real-Time Streaming**: Implemented robust communication protocol for game state synchronization
   - Sub-100ms transmission latency for real-time event streaming
   - Multithreaded C++ application integration
@@ -30,6 +35,7 @@ SpriteBlast is a high-throughput embedded control system that demonstrates sophi
   - Reliable packet processing for game state management
 
 ### Intelligent Gameplay
+
 - **Adaptive AI System**: Enhanced player engagement through machine learning integration
   - k-NN classification algorithm for real-time player behavior analysis
   - Dynamic difficulty adjustment based on movement and engagement patterns
@@ -39,11 +45,13 @@ SpriteBlast is a high-throughput embedded control system that demonstrates sophi
 ## Technical Architecture
 
 ### Embedded System (Arduino/AVR)
+
 - **AVR_code.cpp**: Core embedded system logic with sensor integration and real-time processing
 - **Custom Headers**: Specialized drivers for LCD, SPI, timers, and peripheral management
 - **Hardware Abstraction**: Clean separation between hardware drivers and game logic
 
 ### Host Application (C++)
+
 - **text_GUI-v1.cpp & text_GUI-v2.cpp**: Evolution of the graphical user interface
 - **Multithreaded Architecture**: Concurrent processing of game state and rendering
 - **Real-time Communication**: UART protocol implementation for seamless data exchange
